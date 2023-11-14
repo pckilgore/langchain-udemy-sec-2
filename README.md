@@ -1,7 +1,7 @@
 # Commands
 
 ```
-docker run --env-file .env -it $(docker build -q .)`
+docker run --env-file .env -it $(docker build -q .)
 ```
 
 ```shell
